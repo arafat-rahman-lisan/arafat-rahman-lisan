@@ -1,16 +1,17 @@
-name: Refresh animated contribution snake
+name: Refresh Pac-Man contribution trail
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2 * * *'
+    - cron: '19 2 * * *'
   push:
     branches: [main]
     paths:
+      - 'scripts/build_pacman.py'
       - '.github/workflows/activity.yml'
 permissions:
   contents: write
 concurrency:
-  group: profile-activity
+  group: profile-arcade
   cancel-in-progress: false
 jobs:
   update:
@@ -18,18 +19,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Generate animated contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            assets/github-snake.svg?color_snake=#397f75&color_dots=#e8efed,#c5dfd9,#8ebfb3,#4f9286,#236d61
-            assets/github-snake-dark.svg?color_snake=#b8e8d9&color_dots=#202d33,#29484a,#39746d,#58a59a,#9be2c9
-      - name: Publish snake graphics
+      - name: Generate real-data arcade animation
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 scripts/build_pacman.py
+      - name: Validate generated SVG files
+        run: |
+          python3 -c "import xml.etree.ElementTree as e; e.parse('assets/pacman-dark.svg'); e.parse('assets/pacman-light.svg')"
+      - name: Publish refreshed contribution trail
+        shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/github-snake.svg assets/github-snake-dark.svg
+          git add assets/pacman-dark.svg assets/pacman-light.svg
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh animated snake [skip ci]'
+          git commit -m 'Update Pac-Man contribution trail [skip ci]'
           git push
