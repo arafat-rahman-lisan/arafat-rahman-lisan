@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero-orbit.svg" alt="Arafat Rahman Lisan — minimal animated orbital developer banner" width="100%" /></a>
+  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero-quest.svg" alt="Arafat Rahman Lisan — animated pixel-art developer working at a computer" width="100%" /></a>
   <img src="assets/typing.svg" width="100%" alt="Building software. Exploring intelligent systems. Solving real-world problems." />
 
   <p>
