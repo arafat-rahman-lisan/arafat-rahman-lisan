@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Arafat Rahman Lisan — Software development, AI and research" />
-  <img src="assets/typing.svg" width="100%" alt="Building software. Exploring intelligent systems. Solving real-world problems." />
+  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero.svg" alt="Arafat Rahman Lisan — Software, AI and research. Animated retro coding landscape." width="100%" /></a>
+
+  **CSE undergraduate · Software developer · AI/NLP enthusiast**
+
   <p>
     <a href="https://github.com/arafat-rahman-lisan/Portfolio" title="Portfolio"><img src="assets/icon-portfolio.svg" width="48" height="48" alt="Portfolio" /></a>
     &nbsp;
@@ -14,30 +16,43 @@
   </p>
 </div>
 
-### About
+## 01 / Player profile
 
-I'm a CSE undergraduate at American International University-Bangladesh (AIUB), building software and exploring AI, NLP and intelligent systems.
+I turn ideas into working systems, from intelligent recommendation engines to practical web applications. I am studying Computer Science and Engineering at AIUB, exploring AI, NLP and the engineering behind useful software.
 
-I enjoy turning ideas into practical tools, experimenting with research and solving problems that matter.
+**Current quests:** applied AI research, full-stack development and building tools that solve real problems.
 
-### Technologies
+## 02 / Quest log
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,cpp,cs,js,php,html,css,dotnet,git,github&amp;perline=10" alt="Python, C++, C#, JavaScript, PHP, HTML, CSS, .NET, Git and GitHub" />
-</p>
+Six selected projects. Different challenges, one goal: build something useful.
 
-**Focus:** Full-stack development · Machine learning · Natural language processing
+| **Intelligence & research** | **Software & experiences** |
+|:---|:---|
+| [![Doxrine — business intelligence](assets/quest-doxrine.svg)](https://github.com/arafat-rahman-lisan/doxrine-showcase)<br>Automated business discovery and lead generation. [Live](https://doxrine.com/) | [![ENGAGE — volunteer portal](assets/quest-engage.svg)](https://github.com/arafat-rahman-lisan/AIUB_English_Club_Volunteers_Portal)<br>Volunteer coordination and contribution recognition. |
+| [![Emotion-aware book recommender](assets/quest-books.svg)](https://github.com/arafat-rahman-lisan/Emotion-Aware-Book-Recommendation-System)<br>Semantic relevance, emotion and hybrid ranking. | [![AIUB Imposter Detection](assets/quest-game.svg)](https://github.com/arafat-rahman-lisan/AIUB_Imposter_Detection)<br>C++/OpenGL game with a browser edition. [Play](https://arafat-rahman-lisan.github.io/AIUB_Imposter_Detection/) |
+| [![ICT Practice AI](assets/quest-ict.svg)](https://github.com/arafat-rahman-lisan/ict-mcq-practice)<br>Bilingual learning with AI explanations. [Try it](https://arafat-rahman-lisan.github.io/ict-mcq-practice/) | [![Neural Network Lab](assets/quest-neural.svg)](https://github.com/arafat-rahman-lisan/neural-network-simulation)<br>Interactive experiments for deep learning. [Launch](https://arafat-rahman-lisan.github.io/neural-network-simulation/) |
 
-### Selected work
+<details>
+<summary><b>More side quests</b></summary>
 
-- [DOXRINE](https://github.com/arafat-rahman-lisan/doxrine-showcase) — business intelligence and automated lead discovery.
-- [Emotion-Aware Book Recommendation](https://github.com/arafat-rahman-lisan/Emotion-Aware-Book-Recommendation-System) — NLP and hybrid recommendation research.
-- [ENGAGE.](https://github.com/arafat-rahman-lisan/AIUB_English_Club_Volunteers_Portal) — volunteer management and event coordination.
-- [ICT Practice AI](https://github.com/arafat-rahman-lisan/ict-mcq-practice) · [Neural Network Lab](https://github.com/arafat-rahman-lisan/neural-network-simulation) — interactive educational tools.
+- [DSA Fieldnotes](https://github.com/arafat-rahman-lisan/dsa_fieldnotes) — structured algorithm practice and visual traces.
+- [Pharmacy Management System](https://github.com/arafat-rahman-lisan/Pharmacy-Management-System) — a software management system.
+- [Movie Ticket Management System](https://github.com/arafat-rahman-lisan/MovieTicket-Site-Management-System) — cinema management software.
+- [Life Mirror](https://github.com/arafat-rahman-lisan/Life_Mirror) — another experiment in building useful software.
 
-<sub>More projects in my [repositories](https://github.com/arafat-rahman-lisan?tab=repositories).</sub>
+</details>
 
-### GitHub activity
+## 03 / Inventory
+
+**Languages** &nbsp; `Python` · `C++` · `JavaScript` · `PHP` · `C#`
+
+**Web & software** &nbsp; `HTML/CSS` · `ASP.NET Core` · `SQLite` · `Git` · `GitHub`
+
+**AI & research** &nbsp; `NLP` · `Transformers` · `Semantic Search` · `Machine Learning`
+
+**Exploring** &nbsp; computer vision, deep learning and intelligent systems.
+
+## 04 / Activity map
 
 <div align="center">
   <picture>
@@ -49,11 +64,19 @@ I enjoy turning ideas into practical tools, experimenting with research and solv
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg" />
-    <img src="assets/activity-light.svg" width="100%" alt="GitHub contribution statistics" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg" />
+    <img src="assets/activity-dark.svg" alt="Contribution calendar and repository count, refreshed by GitHub Actions" width="100%" />
   </picture>
 </div>
 
+<sub>The map is generated from GitHub contribution data; each tile represents one day. View the [native activity history](https://github.com/arafat-rahman-lisan#contributions-calendar) for more detail.</sub>
+
+## 05 / Beyond the code
+
+I enjoy experimenting with new ideas, documenting the process and building software around real needs. Through the AIUB English Club, I also work on logistics and event management, where technology can make teamwork more organized and accountable.
+
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Keep learning. Keep building." />
+  <sub>BUILD · LEARN · ITERATE</sub><br />
+  <b>Always another quest ahead.</b><br />
+  <a href="https://www.linkedin.com/in/arafat-rahman-lisan/">Connect on LinkedIn</a>
 </div>
