@@ -1,4 +1,4 @@
-name: Refresh activity map
+name: Refresh profile visuals
 on:
   workflow_dispatch:
   schedule:
@@ -18,16 +18,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate calendar from GitHub
+      - name: Generate animated contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-snake.svg?color_snake=#397f75&color_dots=#e8efed,#c5dfd9,#8ebfb3,#4f9286,#236d61
+            assets/github-snake-dark.svg?color_snake=#b8e8d9&color_dots=#202d33,#29484a,#39746d,#58a59a,#9be2c9
+      - name: Refresh activity statistics
         env:
           GITHUB_TOKEN: ${{ github.token }}
           PROFILE_LOGIN: ${{ github.repository_owner }}
         run: python3 scripts/update_activity.py
-      - name: Commit refreshed activity map
+      - name: Publish visuals
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/activity-dark.svg assets/activity-light.svg
+          git add assets/github-snake.svg assets/github-snake-dark.svg assets/activity-dark.svg assets/activity-light.svg
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh GitHub contribution map'
+          git commit -m 'Refresh profile visuals'
           git push
