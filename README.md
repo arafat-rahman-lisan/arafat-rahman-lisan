@@ -17,39 +17,43 @@
 
 ## 01 / Player profile
 
-CSE undergraduate at **AIUB**. I build practical software and explore **AI, NLP and intelligent systems**.
-
-**Current quests:** Applied AI · Full-stack engineering · Research
+<div align="center">
+  <img src="assets/player-hud-v2.svg" alt="CSE undergraduate at AIUB. Building practical software; current quests: applied AI, full-stack engineering, research." width="100%" />
+</div>
 
 ## 02 / Quest log
 
-Selected builds across research, software and interactive experiences.
+<div align="center">
+  <a href="https://github.com/arafat-rahman-lisan/doxrine-showcase"><img src="assets/quest-doxrine-v2.svg" width="49%" alt="DOXRINE — Discovering businesses at scale with automated lead intelligence." /></a>
+  <a href="https://github.com/arafat-rahman-lisan/AIUB_English_Club_Volunteers_Portal"><img src="assets/quest-engage-v2.svg" width="49%" alt="ENGAGE. — Volunteer coordination, events and contribution recognition." /></a>
+</div>
 
-| **Intelligence & research** | **Software & experiences** |
-|:---|:---|
-| [![Doxrine — business intelligence](assets/quest-doxrine.svg)](https://github.com/arafat-rahman-lisan/doxrine-showcase)<br>Automated business discovery and lead generation. [Live](https://doxrine.com/) | [![ENGAGE — volunteer portal](assets/quest-engage.svg)](https://github.com/arafat-rahman-lisan/AIUB_English_Club_Volunteers_Portal)<br>Volunteer coordination and contribution recognition. |
-| [![Emotion-aware book recommender](assets/quest-books.svg)](https://github.com/arafat-rahman-lisan/Emotion-Aware-Book-Recommendation-System)<br>Semantic relevance, emotion and hybrid ranking. | [![AIUB Imposter Detection](assets/quest-game.svg)](https://github.com/arafat-rahman-lisan/AIUB_Imposter_Detection)<br>C++/OpenGL game with a browser edition. [Play](https://arafat-rahman-lisan.github.io/AIUB_Imposter_Detection/) |
-| [![ICT Practice AI](assets/quest-ict.svg)](https://github.com/arafat-rahman-lisan/ict-mcq-practice)<br>Bilingual learning with AI explanations. [Try it](https://arafat-rahman-lisan.github.io/ict-mcq-practice/) | [![Neural Network Lab](assets/quest-neural.svg)](https://github.com/arafat-rahman-lisan/neural-network-simulation)<br>Interactive experiments for deep learning. [Launch](https://arafat-rahman-lisan.github.io/neural-network-simulation/) |
+<div align="center">
+  <a href="https://github.com/arafat-rahman-lisan/Emotion-Aware-Book-Recommendation-System"><img src="assets/quest-books-v2.svg" width="49%" alt="Emotion-Aware Books — Matching semantic meaning with readers' emotional intent." /></a>
+  <a href="https://github.com/arafat-rahman-lisan/AIUB_Imposter_Detection"><img src="assets/quest-game-v2.svg" width="49%" alt="AIUB Imposter Detection — C++ / OpenGL stealth adventure with a playable browser edition." /></a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/arafat-rahman-lisan/ict-mcq-practice"><img src="assets/quest-ict-v2.svg" width="49%" alt="ICT Practice AI — Bilingual practice with AI hints and explanations." /></a>
+  <a href="https://github.com/arafat-rahman-lisan/neural-network-simulation"><img src="assets/quest-neural-v2.svg" width="49%" alt="Neural Network Lab — Visual experiments for learning the logic of deep learning." /></a>
+</div>
+
+<div align="center">
+  <sub>**Live builds:** [DOXRINE](https://doxrine.com/) · [ICT Practice AI](https://arafat-rahman-lisan.github.io/ict-mcq-practice/) · [Imposter Detection](https://arafat-rahman-lisan.github.io/AIUB_Imposter_Detection/) · [Neural Network Lab](https://arafat-rahman-lisan.github.io/neural-network-simulation/)</sub>
+</div>
 
 <details>
-<summary><b>More side quests</b></summary>
+<summary><b>+ Unlock more side quests</b></summary>
 
-- [DSA Fieldnotes](https://github.com/arafat-rahman-lisan/dsa_fieldnotes) — structured algorithm practice and visual traces.
-- [Pharmacy Management System](https://github.com/arafat-rahman-lisan/Pharmacy-Management-System) — a software management system.
-- [Movie Ticket Management System](https://github.com/arafat-rahman-lisan/MovieTicket-Site-Management-System) — cinema management software.
-- [Life Mirror](https://github.com/arafat-rahman-lisan/Life_Mirror) — another experiment in building useful software.
+[DSA Fieldnotes](https://github.com/arafat-rahman-lisan/dsa_fieldnotes) · [Pharmacy Management](https://github.com/arafat-rahman-lisan/Pharmacy-Management-System) · [Movie Ticket System](https://github.com/arafat-rahman-lisan/MovieTicket-Site-Management-System) · [Life Mirror](https://github.com/arafat-rahman-lisan/Life_Mirror)
 
 </details>
 
 ## 03 / Inventory
 
-**Languages** &nbsp; `Python` · `C++` · `JavaScript` · `PHP` · `C#`
-
-**Web & software** &nbsp; `HTML/CSS` · `ASP.NET Core` · `SQLite` · `Git` · `GitHub`
-
-**AI & research** &nbsp; `NLP` · `Transformers` · `Semantic Search` · `Machine Learning`
-
-**Exploring** &nbsp; computer vision, deep learning and intelligent systems.
+<div align="center">
+  <img src="assets/inventory-hud-v2.svg" width="100%" alt="Languages: Python, C++, JavaScript, PHP, C sharp. Web and software: HTML/CSS, ASP.NET Core, SQLite, Git, GitHub. AI and research: NLP, Transformers, Semantic Search, Machine Learning. Exploring: Computer Vision, Deep Learning, Intelligent Systems." />
+</div>
 
 ## 04 / Contribution trail
 
