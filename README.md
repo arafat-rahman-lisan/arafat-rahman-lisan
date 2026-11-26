@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero.svg" alt="Arafat Rahman Lisan — Software, AI and research. Animated retro coding landscape." width="100%" /></a>
+  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero-quest.svg" alt="Arafat Rahman Lisan — Software, AI and research. Animated retro coding landscape." width="100%" /></a>
 
   **CSE undergraduate · Software developer · AI/NLP enthusiast**
 
