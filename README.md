@@ -18,32 +18,30 @@
 ## 01 / Player profile
 
 <div align="center">
-  <img src="assets/player-hud-v2.svg" alt="CSE undergraduate at AIUB. Building practical software; current quests: applied AI, full-stack engineering, research." width="100%" />
+  <img src="assets/player-hud-v3.svg" width="100%" alt="CSE undergraduate at AIUB. Building useful software and exploring artificial intelligence, NLP and research." />
 </div>
 
 ## 02 / Quest log
 
 <div align="center">
-  <a href="https://github.com/arafat-rahman-lisan/doxrine-showcase"><img src="assets/quest-doxrine-v2.svg" width="49%" alt="DOXRINE — Discovering businesses at scale with automated lead intelligence." /></a>
-  <a href="https://github.com/arafat-rahman-lisan/AIUB_English_Club_Volunteers_Portal"><img src="assets/quest-engage-v2.svg" width="49%" alt="ENGAGE. — Volunteer coordination, events and contribution recognition." /></a>
+  <a href="https://github.com/arafat-rahman-lisan/doxrine-showcase"><img src="assets/quest-doxrine-v3.svg" alt="DOXRINE — Automated lead discovery" width="49%" /></a>
+  <a href="https://github.com/arafat-rahman-lisan/AIUB_English_Club_Volunteers_Portal"><img src="assets/quest-engage-v3.svg" alt="ENGAGE. — Volunteer coordination" width="49%" /></a>
 </div>
 
 <div align="center">
-  <a href="https://github.com/arafat-rahman-lisan/Emotion-Aware-Book-Recommendation-System"><img src="assets/quest-books-v2.svg" width="49%" alt="Emotion-Aware Books — Matching semantic meaning with readers' emotional intent." /></a>
-  <a href="https://github.com/arafat-rahman-lisan/AIUB_Imposter_Detection"><img src="assets/quest-game-v2.svg" width="49%" alt="AIUB Imposter Detection — C++ / OpenGL stealth adventure with a playable browser edition." /></a>
+  <a href="https://github.com/arafat-rahman-lisan/Emotion-Aware-Book-Recommendation-System"><img src="assets/quest-books-v3.svg" alt="Emotion-Aware Books — Mood-aware reading recommendations" width="49%" /></a>
+  <a href="https://github.com/arafat-rahman-lisan/AIUB_Imposter_Detection"><img src="assets/quest-game-v3.svg" alt="AIUB Imposter Detection — C++ and browser stealth game" width="49%" /></a>
 </div>
 
 <div align="center">
-  <a href="https://github.com/arafat-rahman-lisan/ict-mcq-practice"><img src="assets/quest-ict-v2.svg" width="49%" alt="ICT Practice AI — Bilingual practice with AI hints and explanations." /></a>
-  <a href="https://github.com/arafat-rahman-lisan/neural-network-simulation"><img src="assets/quest-neural-v2.svg" width="49%" alt="Neural Network Lab — Visual experiments for learning the logic of deep learning." /></a>
+  <a href="https://github.com/arafat-rahman-lisan/ict-mcq-practice"><img src="assets/quest-ict-v3.svg" alt="ICT Practice AI — Bilingual learning with AI hints" width="49%" /></a>
+  <a href="https://github.com/arafat-rahman-lisan/neural-network-simulation"><img src="assets/quest-neural-v3.svg" alt="Neural Network Lab — Learn deep learning visually" width="49%" /></a>
 </div>
 
-<div align="center">
-  <sub>**Live builds:** [DOXRINE](https://doxrine.com/) · [ICT Practice AI](https://arafat-rahman-lisan.github.io/ict-mcq-practice/) · [Imposter Detection](https://arafat-rahman-lisan.github.io/AIUB_Imposter_Detection/) · [Neural Network Lab](https://arafat-rahman-lisan.github.io/neural-network-simulation/)</sub>
-</div>
+<div align="center"><sub>[DOXRINE live](https://doxrine.com/) · [ICT Practice live](https://arafat-rahman-lisan.github.io/ict-mcq-practice/) · [Play Imposter Detection](https://arafat-rahman-lisan.github.io/AIUB_Imposter_Detection/) · [Neural Network Lab live](https://arafat-rahman-lisan.github.io/neural-network-simulation/)</sub></div>
 
 <details>
-<summary><b>+ Unlock more side quests</b></summary>
+<summary>+ More side quests</summary>
 
 [DSA Fieldnotes](https://github.com/arafat-rahman-lisan/dsa_fieldnotes) · [Pharmacy Management](https://github.com/arafat-rahman-lisan/Pharmacy-Management-System) · [Movie Ticket System](https://github.com/arafat-rahman-lisan/MovieTicket-Site-Management-System) · [Life Mirror](https://github.com/arafat-rahman-lisan/Life_Mirror)
 
@@ -52,20 +50,20 @@
 ## 03 / Inventory
 
 <div align="center">
-  <img src="assets/inventory-hud-v2.svg" width="100%" alt="Languages: Python, C++, JavaScript, PHP, C sharp. Web and software: HTML/CSS, ASP.NET Core, SQLite, Git, GitHub. AI and research: NLP, Transformers, Semantic Search, Machine Learning. Exploring: Computer Vision, Deep Learning, Intelligent Systems." />
+  <img src="assets/inventory-hud-v3.svg" width="100%" alt="Languages: Python, C++, JavaScript, PHP and C sharp. Web: HTML/CSS, ASP.NET Core, SQLite, Git, GitHub. AI: NLP, Transformers, Semantic Search and Machine Learning. Exploring Computer Vision and Deep Learning." />
 </div>
 
-## 04 / Contribution trail
+## 04 / Arcade contributions
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
-    <img src="assets/github-snake.svg" width="100%" alt="Animated snake exploring my GitHub contribution calendar" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/pacman-light.svg" />
+    <img src="assets/pacman-dark.svg" width="100%" alt="Animated Pac-Man-style contribution grid using my real GitHub activity" />
   </picture>
 </div>
 
-<sub>My real GitHub activity, animated and refreshed daily. [View contribution history](https://github.com/arafat-rahman-lisan#contributions-calendar).</sub>
+<sub>Based on actual GitHub contributions. [View native contribution history](https://github.com/arafat-rahman-lisan/#contributions-calendar).</sub>
 
 ## 05 / Beyond the code
 
