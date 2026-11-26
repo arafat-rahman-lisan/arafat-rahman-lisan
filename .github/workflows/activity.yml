@@ -1,0 +1,33 @@
+name: Refresh activity map
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_activity.py'
+      - '.github/workflows/activity.yml'
+permissions:
+  contents: write
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate calendar from GitHub
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/update_activity.py
+      - name: Commit refreshed activity map
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/activity-dark.svg assets/activity-light.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh GitHub contribution map'
+          git push
