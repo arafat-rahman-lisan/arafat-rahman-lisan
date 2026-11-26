@@ -1,4 +1,4 @@
-name: Refresh profile visuals
+name: Refresh animated contribution snake
 on:
   workflow_dispatch:
   schedule:
@@ -6,7 +6,6 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/update_activity.py'
       - '.github/workflows/activity.yml'
 permissions:
   contents: write
@@ -16,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - name: Generate animated contribution snake
@@ -25,16 +25,11 @@ jobs:
           outputs: |
             assets/github-snake.svg?color_snake=#397f75&color_dots=#e8efed,#c5dfd9,#8ebfb3,#4f9286,#236d61
             assets/github-snake-dark.svg?color_snake=#b8e8d9&color_dots=#202d33,#29484a,#39746d,#58a59a,#9be2c9
-      - name: Refresh activity statistics
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          PROFILE_LOGIN: ${{ github.repository_owner }}
-        run: python3 scripts/update_activity.py
-      - name: Publish visuals
+      - name: Publish snake graphics
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/github-snake.svg assets/github-snake-dark.svg assets/activity-dark.svg assets/activity-light.svg
+          git add assets/github-snake.svg assets/github-snake-dark.svg
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh profile visuals'
+          git commit -m 'Refresh animated snake [skip ci]'
           git push

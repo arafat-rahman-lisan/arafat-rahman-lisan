@@ -1,7 +1,6 @@
 <div align="center">
-  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero-quest.svg" alt="Arafat Rahman Lisan — Software, AI and research. Animated retro coding landscape." width="100%" /></a>
-
-  **CSE undergraduate · Software developer · AI/NLP enthusiast**
+  <a href="https://github.com/arafat-rahman-lisan/Portfolio"><img src="assets/hero-orbit.svg" alt="Arafat Rahman Lisan — minimal animated orbital developer banner" width="100%" /></a>
+  <img src="assets/typing.svg" width="100%" alt="Building software. Exploring intelligent systems. Solving real-world problems." />
 
   <p>
     <a href="https://github.com/arafat-rahman-lisan/Portfolio" title="Portfolio"><img src="assets/icon-portfolio.svg" width="48" height="48" alt="Portfolio" /></a>
@@ -18,13 +17,13 @@
 
 ## 01 / Player profile
 
-I turn ideas into working systems, from intelligent recommendation engines to practical web applications. I am studying Computer Science and Engineering at AIUB, exploring AI, NLP and the engineering behind useful software.
+CSE undergraduate at **AIUB**. I build practical software and explore **AI, NLP and intelligent systems**.
 
-**Current quests:** applied AI research, full-stack development and building tools that solve real problems.
+**Current quests:** Applied AI · Full-stack engineering · Research
 
 ## 02 / Quest log
 
-Six selected projects. Different challenges, one goal: build something useful.
+Selected builds across research, software and interactive experiences.
 
 | **Intelligence & research** | **Software & experiences** |
 |:---|:---|
@@ -52,7 +51,7 @@ Six selected projects. Different challenges, one goal: build something useful.
 
 **Exploring** &nbsp; computer vision, deep learning and intelligent systems.
 
-## 04 / Activity map
+## 04 / Contribution trail
 
 <div align="center">
   <picture>
@@ -62,18 +61,11 @@ Six selected projects. Different challenges, one goal: build something useful.
   </picture>
 </div>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg" />
-    <img src="assets/activity-dark.svg" alt="Contribution calendar and repository count, refreshed by GitHub Actions" width="100%" />
-  </picture>
-</div>
-
-<sub>The map is generated from GitHub contribution data; each tile represents one day. View the [native activity history](https://github.com/arafat-rahman-lisan#contributions-calendar) for more detail.</sub>
+<sub>My real GitHub activity, animated and refreshed daily. [View contribution history](https://github.com/arafat-rahman-lisan#contributions-calendar).</sub>
 
 ## 05 / Beyond the code
 
-I enjoy experimenting with new ideas, documenting the process and building software around real needs. Through the AIUB English Club, I also work on logistics and event management, where technology can make teamwork more organized and accountable.
+Beyond coding, I coordinate volunteers and event logistics at **AIUB English Club**, combining team leadership with practical technology.
 
 <div align="center">
   <sub>BUILD · LEARN · ITERATE</sub><br />
